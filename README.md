@@ -48,7 +48,7 @@ Interpretação dos Resultados:
 Este trabalho visa não apenas resolver um problema específico, mas também proporcionar uma compreensão profunda dos conceitos de Pesquisa Operacional e sua aplicação prática.
 
 
-====> VEJA NOSSO VÍDEO EXPLICANDO DETALHADAMENTE SOBRE O TRABALHO! <=====================
+====> VEJA NOSSO VÍDEO EXPLICANDO DETALHADAMENTE SOBRE O TRABALHO! <=============
 
 LINK: 
 
