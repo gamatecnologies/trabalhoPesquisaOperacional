@@ -13,7 +13,8 @@ Wenner Cruz
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Contexto do Problema:
-[Descreva brevemente o contexto do problema que está sendo abordado. Exemplifique como esse problema pode ocorrer na prática ou em cenários do mundo real.]
+
+Uma empresa de joias e semijoias busca otimizar a escolha de fornecedores para minimizar os custos de produção. A empresa tem cinco opções de fornecedores (A, B, C, D e E) para diferentes componentes de suas peças. O desafio é determinar a quantidade de componentes a serem adquiridos de cada fornecedor para minimizar os custos totais, considerando as diferentes cotações de preço.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
