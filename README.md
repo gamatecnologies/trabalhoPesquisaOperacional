@@ -6,10 +6,10 @@ Este trabalho propõe a aplicação de conceitos da disciplina Pesquisa Operacio
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Integrantes do Grupo:
 
-Caio Amorim
-Marcela Almeida
-Samuel Romaskesvis
-Wenner Cruz
+Caio Amorim,
+Marcela Almeida,
+Samuel Romaskesvis,
+Wenner Cruz.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Contexto do Problema:
@@ -32,6 +32,8 @@ Modelagem Matemática:
 Algoritmo Utilizado:
 
 Desenvolvemos uma solução utilizando a biblioteca PuLP em Python para implementar programação linear. Este algoritmo foi escolhido devido à sua eficácia na resolução de problemas de otimização. A PuLP oferece uma abordagem intuitiva para modelagem matemática e facilita a interação com solucionadores externos, proporcionando uma implementação robusta e eficiente.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Implementação e Execução:
 [Forneça uma visão geral do programa implementado, destacando os parâmetros de entrada e explicando a execução do código. Inclua exemplos práticos.]
