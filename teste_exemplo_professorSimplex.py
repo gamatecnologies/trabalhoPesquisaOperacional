@@ -1,0 +1,71 @@
+def print_table(table):
+    for row in table:
+        print(" ".join(map(lambda x: f"{x:.2f}", row)))
+
+def simplex(c, A, b):
+    m, n = len(A), len(c)
+
+    # Multiplica por -1 para transformar o problema de maximização em minimização
+    c = [-x for x in c]
+
+    # Adicionando variáveis de folga e criando a tabela inicial
+    table = [[0.0] * (n + m + 1) for _ in range(m + 1)]
+    for i in range(m):
+        table[i + 1][:n] = A[i]
+        table[i + 1][n + i] = 1.0
+        table[i + 1][-1] = b[i]
+
+    table[0][:n] = c
+
+    print("Tabela Inicial:")
+    print_table(table)
+
+    iteration = 1
+    while any(x < 0 for x in table[0][:-1]):
+        pivot_col = min(range(n + m), key=lambda i: table[0][i])
+
+        ratios = [(i, table[i][-1] / table[i][pivot_col]) for i in range(1, m + 1) if table[i][pivot_col] > 0]
+        if not ratios:
+            break
+
+        pivot_row = min(ratios, key=lambda x: x[1])[0]
+
+        pivot_value = table[pivot_row][pivot_col]
+        table[pivot_row] = [x / pivot_value for x in table[pivot_row]]
+
+        for i in range(m + 1):
+            if i != pivot_row:
+                factor = table[i][pivot_col]
+                table[i] = [x - factor * table[pivot_row][j] for j, x in enumerate(table[i])]
+
+        print(f"\nIteração {iteration}:")
+        print_table(table)
+        iteration += 1
+
+    # Extrai as variáveis originais
+    x_optimal = [table[i][-1] if i < m + 1 else 0.0 for i in range(4)]
+    Z_optimal = -table[0][-1]  # Multiplica por -1 para obter o valor correto para maximização
+
+    print("\nSolução Ótima encontrada:")
+    print_table(table)
+    print(f"x1 = {x_optimal[2]:.2f}")
+    print(f"x2 = {x_optimal[1]:.2f}")
+    print(f"Z* = {-Z_optimal:.2f}")  # Corrigido para imprimir o valor positivo
+
+# Coeficientes da função objetivo
+c = [3, 5]
+
+# Coeficientes das restrições
+A = [
+    [2, 4],
+    [5.5, 1],
+    [1, -1]
+]
+
+# Limites superiores das restrições
+b = [10, 20, 30]
+
+# Resolvendo o problema de programação linear
+simplex(c, A, b)
+
+
