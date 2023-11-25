@@ -1,3 +1,10 @@
+# ============ TRABALHO PESQUISA OPERACIONAL =================
+# Feito por: Caio Amorim, Marcela Almeida, Samuel Romaskevis, Wenner Cruz
+# ------------------------------------------------------------
+# CODIGO PRINCIPAL
+# Descrição: Problema da loja de jóias Gammasi, o objetivo é saber qual a quantidade correta
+# de materiais precisa ser usado para gerar o lucro maximo.
+
 def print_table(table):
     for row in table:
         print(" ".join(map(lambda x: f"{x:.2f}", row)))
@@ -44,7 +51,7 @@ def simplex_maximize(c, A, b):
 
     # Extrai as variáveis originais
     x_optimal = [table[i][-1] if i < m + 1 else 0.0 for i in range(8)]
-    Z_optimal = table[0][-1]  # Agora, o valor é positivo para maximização
+    Z_optimal = table[0][-1]  
 
     print("\nSolução Ótima encontrada:")
     print_table(table)
