@@ -30,7 +30,7 @@ Modelagem Matemática:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Algoritmo Utilizado:
-
+https://github.com/gamatecnologies/trabalhoPesquisaOperacional/tree/main
 Desenvolvemos uma solução utilizando a biblioteca PuLP em Python para implementar programação linear. Este algoritmo foi escolhido devido à sua eficácia na resolução de problemas de otimização. A PuLP oferece uma abordagem intuitiva para modelagem matemática e facilita a interação com solucionadores externos, proporcionando uma implementação robusta e eficiente.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -42,7 +42,12 @@ Implementação e Execução:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Interpretação dos Resultados:
-[Apresente e interprete os resultados obtidos após a execução do programa, explicando como a solução encontrada se relaciona com o problema original.]
+
+Esse problema de programação linear busca otimizar a produção de joias e semijoias na loja Gammasi para maximizar o lucro. A loja deseja determinar quantas unidades de cada tipo de jóias (colares, pulseiras, brincos, anéis) deve produzir para maximizar o lucro total, considerando as limitações nos recursos disponíveis.
+
+Os recursos limitados são os materiais necessários para fazer as bijuterias, como ouro, prata, metal, material reciclável, acrílico, nylon e ganchos. As quantidades desses materiais são restritas e não podem ser ultrapassadas. O objetivo é determinar a quantidade de cada tipo de bijuteria a ser produzida de modo a maximizar o lucro total, considerando os preços de venda de cada tipo.
+
+Portanto, a solução desse problema fornece informações sobre como a loja deve distribuir seus recursos e produzir diferentes tipos de bijuterias para obter o máximo retorno financeiro.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
