@@ -1,6 +1,6 @@
 Descrição do Trabalho de Pesquisa Operacional
 
-Este trabalho propõe a aplicação de conceitos da disciplina Pesquisa Operacional realizada na Dom Helder, onde tem o intuito de resolver um problema de otimização específico. Nossa abordagem envolverá a utilização de programação linear para maximizar  uma função objetivo, sujeita a um conjunto de restrições, com o objetivo de encontrar a melhor solução possível.
+Este trabalho propõe a aplicação de conceitos da disciplina Pesquisa Operacional realizada pelo professor Vinicius De Filippo na Escola Superior Dom Helder, onde tem o intuito de resolver um problema de otimização específico. Nossa abordagem envolverá a utilização de programação linear método simpelx para maximizar  uma função objetivo, sujeita a um conjunto de restrições, com o objetivo de encontrar a melhor solução possível.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -14,7 +14,11 @@ Wenner Cruz - E01762.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Contexto do Problema:
 
-Uma empresa de joias e semijoias busca otimizar a escolha de fornecedores para minimizar os custos de produção. A empresa tem cinco opções de fornecedores (A, B, C, D e E) para diferentes componentes de suas peças. O desafio é determinar a quantidade de componentes a serem adquiridos de cada fornecedor para minimizar os custos totais, considerando as diferentes cotações de preço.
+A loja Gammasi, especializada em jóias e semijóias, está em busca de otimizar suas operações e maximizar as vendas da sua loja online. Para atingir esse objetivo, a loja oferece uma variedade de produtos, incluindo colares, pulseiras, brincos e anéis, cada um com seu preço específico de mercado.
+
+Entretanto, a produção dessas peças demanda diferentes materiais, como ouro, prata, metal, materiais recicláveis, acrílico, nylon e gancho. Existem restrições quanto à quantidade disponível desses materiais, limitando a produção máxima de cada peça.
+
+O desafio é encontrar a combinação ideal de produção dessas peças, considerando as limitações de materiais, de modo a maximizar o lucro total da loja Gammasi.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
