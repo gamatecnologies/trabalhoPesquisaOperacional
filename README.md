@@ -85,6 +85,6 @@ Este trabalho visa não apenas resolver um problema específico, mas também pro
 
 ====> VEJA NOSSO VÍDEO EXPLICANDO DETALHADAMENTE SOBRE O TRABALHO! <=============
 
-LINK: 
+LINK: https://www.youtube.com/watch?v=bXeOLFxzXWs&ab_channel=MarcelaAlmeida
 
 
